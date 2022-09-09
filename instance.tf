@@ -5,4 +5,5 @@ resource "aws_instance" "web" {
     tags = {
       Name = "terraform"
     }
+    key_name = "keyAWS.pem"
 }
